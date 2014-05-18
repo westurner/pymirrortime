@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import urllib2
-from BeautifulSoup import BeautifulSoup as BS
+from bs4 import BeautifulSoup as BS
 from httping import http_ping_avg
 from itertools import ifilter
 import eventlet
